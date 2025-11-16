@@ -109,6 +109,8 @@
 1. **[README § Architecture](./README.md#architecture-en-3-couches)** - Architecture simplifiée
 2. **[Architecture](./02-architecture.md)** - Architecture complète
 3. **[Système Multi-Modèles](./03-systeme-modeles.md)** - Gestion des modèles IA
+4. **[Système d'Agents](./04-systeme-agents.md)** - Agents dynamiques
+5. **[Système d'Outils](./05-systeme-outils.md)** - 21+ outils natifs
 
 ### Pour Utiliser Kode
 
@@ -133,9 +135,14 @@
 | **README.md** | 12 KB | 369 | Vue d'ensemble et navigation |
 | **02-architecture.md** | 44 KB | 1191 | Architecture système complète |
 | **03-systeme-modeles.md** | 29 KB | 1065 | Système multi-modèles |
+| **04-systeme-agents.md** | 25 KB | 811 | Système d'agents dynamiques |
+| **05-systeme-outils.md** | 31 KB | 1068 | Catalogue 21+ outils, permissions |
+| **06-interface-utilisateur.md** | 29 KB | 1024 | REPL Ink/React, 70+ composants |
+| **07-configuration.md** | 33 KB | 1050 | Hiérarchie config, auto-compaction |
+| **08-services-integrations.md** | 28 KB | 920 | Services Claude, OpenAI, MCP, logging |
 | **10-guide-utilisateur.md** | 19 KB | 576 | Guide pratique complet |
 | **INDEX.md** | Ce fichier | - | Index de navigation |
-| **TOTAL** | **104+ KB** | **3200+** | Documentation exhaustive |
+| **TOTAL** | **296 KB** | **10,573** | Documentation exhaustive complète |
 
 ### Couverture
 
@@ -161,13 +168,17 @@
 - ✅ Agents personnalisés
 - ✅ Astuces et dépannage
 
-**Documentation Future** (à créer si nécessaire) :
-- ⏳ Système d'agents (détails techniques)
-- ⏳ Système d'outils (21+ outils)
-- ⏳ Configuration avancée
-- ⏳ Services et intégrations
-- ⏳ Interface utilisateur (Ink/React)
-- ⏳ Guide développeur
+**Documentation Technique Complète** :
+- ✅ Système d'agents (détails techniques) - [04-systeme-agents.md](./04-systeme-agents.md)
+- ✅ Système d'outils (21+ outils) - [05-systeme-outils.md](./05-systeme-outils.md)
+- ✅ Interface utilisateur (Ink/React) - [06-interface-utilisateur.md](./06-interface-utilisateur.md)
+- ✅ Configuration avancée - [07-configuration.md](./07-configuration.md)
+- ✅ Services et intégrations - [08-services-integrations.md](./08-services-integrations.md)
+
+**Documentation Future** (optionnelle) :
+- ⏳ Guide développeur avancé
+- ⏳ Guide de contribution au code
+- ⏳ Architecture interne des composants React
 
 ---
 
@@ -191,8 +202,12 @@
 
 1. **[Architecture](./02-architecture.md)** - Architecture complète
 2. **[Système Multi-Modèles](./03-systeme-modeles.md)** - Système de modèles
-3. **[Architecture § Patterns](./02-architecture.md#7-patterns-architecturaux)** - Patterns utilisés
-4. **[README § Contribution](./README.md#contribution)** - Contribuer
+3. **[Système d'Agents](./04-systeme-agents.md)** - Agents et chargement dynamique
+4. **[Système d'Outils](./05-systeme-outils.md)** - Outils et permissions
+5. **[Interface Utilisateur](./06-interface-utilisateur.md)** - REPL et composants React
+6. **[Configuration](./07-configuration.md)** - Config hiérarchique et auto-compaction
+7. **[Services](./08-services-integrations.md)** - Claude, OpenAI, MCP, logging
+8. **[Architecture § Patterns](./02-architecture.md#7-patterns-architecturaux)** - Patterns utilisés
 
 ---
 
@@ -202,10 +217,13 @@
 
 - **Multi-modèles** → [Système Multi-Modèles](./03-systeme-modeles.md)
 - **Model Pointers** → [Système Multi-Modèles § Model Pointers](./03-systeme-modeles.md#model-pointers-innovation)
-- **Agents** → [Guide Utilisateur § Agents](./10-guide-utilisateur.md#5-création-et-utilisation-dagents)
+- **Agents** → [Système d'Agents](./04-systeme-agents.md)
+- **Outils** → [Système d'Outils](./05-systeme-outils.md)
+- **Interface** → [Interface Utilisateur](./06-interface-utilisateur.md)
+- **Configuration** → [Configuration](./07-configuration.md)
+- **Services** → [Services et Intégrations](./08-services-integrations.md)
 - **Architecture** → [Architecture Système](./02-architecture.md)
 - **Installation** → [Guide Utilisateur § Installation](./10-guide-utilisateur.md#installation)
-- **Configuration** → [Guide Utilisateur § Configuration](./10-guide-utilisateur.md#4-configuration-des-modèles)
 
 ### Par Action
 
@@ -226,12 +244,14 @@
 
 ## 📝 Notes
 
-Cette documentation est un travail en cours. Les documents marqués ⏳ sont planifiés mais non encore créés.
+Cette documentation est maintenant **complète** !
 
-Les documents actuels couvrent les aspects essentiels :
-- ✅ Démarrage et utilisation quotidienne
-- ✅ Architecture système
-- ✅ Innovation majeure (multi-modèles)
+Les documents couvrent tous les aspects essentiels de Kode :
+- ✅ Démarrage et utilisation quotidienne (README, Guide Utilisateur)
+- ✅ Architecture système complète (Architecture, Agents, Outils, UI)
+- ✅ Innovation majeure multi-modèles (Système Multi-Modèles)
+- ✅ Configuration avancée (Configuration, Auto-compaction)
+- ✅ Services et intégrations (Claude, OpenAI, MCP, Logging)
 
 Pour toute question ou suggestion d'amélioration, n'hésitez pas à ouvrir une issue sur GitHub.
 
